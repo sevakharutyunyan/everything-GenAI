@@ -11,8 +11,8 @@ This single Jupyter notebook walks through calling LLMs, building retrieval pipe
 | **1** | **LLM Fundamentals** | API basics, tokenization, embeddings, context windows, streaming, sampling, prompting, structured output, LLM-as-judge, tool use |
 | **2** | **RAG** | Data ingestion, chunking, embeddings for retrieval, vector databases, search strategies, generation, evaluation, HyDE, reranking |
 | **3** | **Agent Fundamentals** | Agents, tools, memory, guardrails, parallelization, ReAct, plan-execute, routing, tree of thoughts |
-| **4** | **Advanced Strategies I** | Supervisor/worker, fan-out, reflection, reflexion, voyager, GEPA, LATS |
-| **5** | **Advanced Strategies II** | Error recovery, utility-based decisions, HTN, causal discovery, REWOO, self-discovery |
+| **4** | **Agent Advanced** | Supervisor/worker, fan-out, reflection, reflexion, voyager, GEPA, LATS, HTN, REWOO, self-discovery |
+| **6** | **Interoperability: MCP & A2A** | Why interoperability matters, MCP architecture, primitives, CRUD MCP server, agent-MCP connection, streaming, tool filtering, hosted MCP, A2A architecture, Agent Cards, tasks & messaging, MCP vs A2A |
 
 ## Getting Started
 
@@ -46,6 +46,7 @@ This single Jupyter notebook walks through calling LLMs, building retrieval pipe
 - [OpenAI API Documentation](https://platform.openai.com/docs)
 - [OpenAI Tokenizer](https://platform.openai.com/tokenizer)
 - [tiktoken — Fast BPE tokeniser for OpenAI models](https://github.com/openai/tiktoken)
+- [Prompt Engineering Guide](https://www.promptingguide.ai/) — 17 prompting techniques referenced in §1.7
 
 ### RAG
 
@@ -75,6 +76,17 @@ This single Jupyter notebook walks through calling LLMs, building retrieval pipe
 - [Agent Patterns Documentation](https://agent-patterns.readthedocs.io/en/latest/)
 - [Azure — Retry Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/retry)
 - [Azure — Circuit Breaker Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker)
+
+### Interoperability Protocols
+
+- [Model Context Protocol (MCP) — Introduction](https://modelcontextprotocol.io/introduction)
+- [MCP Architecture](https://modelcontextprotocol.io/docs/learn/architecture)
+- [MCP Server Concepts](https://modelcontextprotocol.io/docs/learn/server-concepts)
+- [FastMCP — Standard Python MCP Framework](https://gofastmcp.com/getting-started/welcome)
+- [Agent-to-Agent Protocol (A2A)](https://a2a-protocol.org/latest/)
+- [A2A Specification](https://a2a-protocol.org/latest/specification/)
+- [A2A Announcement — Google Developers Blog](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/)
+- [A2A — GitHub](https://github.com/google-a2a/A2A)
 
 ### Code & Tools
 
