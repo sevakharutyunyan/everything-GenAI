@@ -12,6 +12,7 @@ This single Jupyter notebook walks through calling LLMs, building retrieval pipe
 | **2** | **RAG** | Data ingestion, chunking, embeddings for retrieval, vector databases, search strategies, generation, evaluation, HyDE, reranking |
 | **3** | **Agent Fundamentals** | Agents, tools, memory, guardrails, parallelization, ReAct, plan-execute, routing, tree of thoughts |
 | **4** | **Agent Advanced** | Supervisor/worker, fan-out, reflection, reflexion, voyager, GEPA, LATS, HTN, REWOO, self-discovery |
+| **5** | **Production-Ready GenAI** | Evaluation & testing, cost optimization, reliability, observability & monitoring, security & guardrails |
 | **6** | **Interoperability: MCP & A2A** | Why interoperability matters, MCP architecture, primitives, CRUD MCP server, agent-MCP connection, streaming, tool filtering, hosted MCP, A2A architecture, Agent Cards, tasks & messaging, MCP vs A2A |
 
 ## Getting Started
